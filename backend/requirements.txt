@@ -1,0 +1,38 @@
+# FitCoach AI - Backend Dependencies
+# Python 3.14+ (tested with Python 3.14.3)
+# For Python 3.10-3.12, use requirements-legacy.txt
+
+# Core Framework
+fastapi==0.135.1
+uvicorn[standard]==0.41.0
+
+# Database
+sqlalchemy==2.0.48
+pymysql==1.1.2
+
+# Data Validation
+pydantic[email]==2.12.5
+pydantic-settings==2.13.1
+email-validator==2.3.0
+
+# Authentication
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==5.0.0
+
+# Environment & Config
+python-dotenv==1.2.2
+python-multipart==0.0.22
+
+# Rate Limiting & Security
+slowapi==0.1.9
+
+# Logging
+loguru==0.7.3
+
+# Data Analysis (for progress analytics)
+pandas==3.0.1
+numpy==2.4.3
+
+# Utilities
+python-dateutil==2.9.0.post0
